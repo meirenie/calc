@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>КАЛкульятор</title>
+    <script src="kalk.js"></script>
+</head>
+<body>
+    <!--после ввода первого числа -->
+    <input id="num1" />
+    
+    <!--блок с кнопками-->
+    <div id="operator_btns">
+        <button id="plus" onclick="op= '+'">+</button>
+        <button id="minus" onclick="op= '-'">-</button>
+        <button id="times" onclick="op= '*'">*</button>
+        <button id="divide" onclick="op= '/'">:</button>
+    </div>
+    <!--поле ввода второго числа -->
+    <input id="num2" />
+    <br>
+
+    <!--кнопка для расчетов-->
+    <button onclick="func()">Поcчитать</button>
+    <p id="result"></p>
+</body>
+</html>
